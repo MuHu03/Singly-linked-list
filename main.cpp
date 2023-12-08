@@ -33,7 +33,7 @@ public:
     }
     void insert(int x) {
         node *newNode = createNode(x);
-        if (first == NULL) {
+        if (empty()) {
             first = newNode;
             cout<<"the first is set"<<endl;
         } else {
